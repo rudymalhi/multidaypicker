@@ -3,4 +3,4 @@ multidaypicker
 
 A simple jQuery control to select multiple days in a month
 
-Usage: $('input').multidatepicker()
+<b>Usage:</b> $('input').multidatepicker()
