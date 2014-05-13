@@ -1,0 +1,54 @@
+.multidatepicker-widget {
+	position: absolute;
+	width: 233px;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	box-shadow: 0px 5px 15px -5px rgba(0, 0, 0, 0.506);
+	padding: 10px;
+	background: #ffffff;
+	border-right: 1px solid #e1e1e1;
+	border-left: 1px solid #e1e1e1;
+	border-bottom: 1px solid #e1e1e1;
+	z-index: 1;
+}
+
+.multidatepicker-widget ul li {
+	list-style: none;
+	display: block;
+	float: left;
+	background: #f2f2f2;
+	text-align: right;
+	width: 30px;
+	height: 25px;
+	line-height: 25px;
+	padding: 0 5px;
+	font-size: 14px;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border-bottom: 1px solid #e1e1e1;
+	border-right: 1px solid #e1e1e1;
+	cursor: pointer;
+}
+.multidatepicker-widget ul li.multidatepicker-lastday {
+	width: 90px;
+	text-align: center;
+}
+.multidatepicker-widget ul li:hover {
+	background: #fb6d1d;
+	color: #fff;
+}
+.multidatepicker-widget ul li.selected {
+	background: #2d6598;
+	color: #fff;	
+}
+
+.multidatepicker-widget ul {
+	border-top: 1px solid #e1e1e1;
+	border-left: 1px solid #e1e1e1;
+}
+
+.multidatepicker-widget ul:after {
+	content: "";
+	display: block;
+	clear: both;
+}
